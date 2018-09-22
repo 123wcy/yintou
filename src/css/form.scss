@@ -1,0 +1,89 @@
+.enterprise-apply {
+    width: 860px;
+    min-height: 960px;
+    box-sizing: border-box;
+    float: right;
+    .data-container {
+        width: 100%;
+        min-height: 870px;
+        background-color: #fff;
+        overflow: hidden;
+        margin-top: 10px;
+        .title {
+        text-align: center;
+        margin: 30px auto;
+        font-weight: 700;
+        }
+        .form {
+            padding-left: 85px;
+            padding-right: 20px;
+            .input-container {
+                margin-bottom: 5px;
+                label {
+                    display: inline-block;
+                    width: 220px;
+                    font-size: 14px;
+                    text-align: right;
+                    margin-right: 10px;
+                    height: 30px;
+                    vertical-align: top;
+                }
+                input {
+                    width: 316px;
+                    height: 21px;
+                    outline: none;
+                    padding-left: 4px;
+                }
+                select {
+                    width: 324px;
+                    height: 25px;
+                }
+                i {
+                    font-size: 14px;
+                }
+                textarea {
+                    min-width: 320px;
+                    max-width: 400px;
+                    min-height: 92px;
+                    max-height: 110px;
+                    padding: 5px;
+                    font-family: "Microsoft Yahei";
+                }
+                span {
+                    color: #999;
+                    font-size: 12px;
+                    margin-left: 234px;
+                    display: block;
+                }
+                .datepicker {
+                    display: inline-block;
+                }
+                .vdp-datepicker * {
+                    width: 240px;
+                    height: 25px;
+                }
+                .upload-demo {
+                    width: 110px;
+                    display: inline-block;
+                }
+                
+            }
+            #btn {
+                display: block;
+                outline: none;
+                width: 100px;
+                height: 30px;
+                color: #fff;
+                background-color: #2db7f5;
+                border: 0;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 20px auto;
+                &:hover {
+                    background-color: #0099cc;
+                }
+            }
+        }   
+       
+    } 
+}

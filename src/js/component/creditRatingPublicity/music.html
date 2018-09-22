@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="referrer" content="no-referrer">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">12</div>
+
+<script src="http://cdn.bootcss.com/jquery/2.0.3/jquery.js"></script>
+<script type="text/javascript">
+  console.log('start')
+
+
+  $.get('/test-test.json',function(data){
+    console.log(data)
+  })
+  console.log('end')
+</script>
+</body>
+</html>
