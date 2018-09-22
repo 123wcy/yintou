@@ -18,7 +18,7 @@
                 <i slot="prefix" class="iconfont icon-password"></i>
             </el-input>
             <el-button type="primary" @click="handleLogin">登录</el-button>
-            <router-link to="register"><span class="register">立即注册</span></router-link>
+            <router-link to="register"><span class="register">注册</span></router-link>
         </form>
     </section>
 </div>
